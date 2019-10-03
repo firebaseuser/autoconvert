@@ -4,7 +4,7 @@ import me.myatminsoe.mdetect.MDetect;
 import me.myatminsoe.mdetect.Rabbit;
 
 public class Detect {
-    public static String convert(String to, String text){
+    /*public static String convert(String to, String text){
         String returnText = text;
         if (to.equals("u")) {
             if (MDetect.INSTANCE.isUnicode()) {
@@ -20,5 +20,7 @@ public class Detect {
             }
         }
         return returnText;
-    }
+    }*/
+    int zawgyi;
+    int unicode;
 }
